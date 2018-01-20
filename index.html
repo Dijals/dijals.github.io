@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Callanish</title>
+	<link rel="stylesheet"  href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/flatly-bootstrap-theme.min.css"/>
+  <link rel="stylesheet" href="css/site.css"/>
+</head>
+<body>
+
+		<header class="container">
+			<!--
+				.navbar :	to specify a bar on the top of the screen 
+							that contains elements
+				.navbar-default: 
+			-->
+			<nav id="menu" class="navbar navbar-default navbar-fixed-top" >
+				<header class="navbar-header">
+		          <button class="btn btn-success navbar-toggle" 
+		                  data-toggle="collapse"
+		                  data-target=".navbar-collapse">
+                      <span class="glyphicon glyphicon-chevron-down"></span>
+              </button>
+
+					<div id="logo" >
+						<a href="index.html"><h4 class="logo-padding">Callanish B&B</h4></a>
+					</div>	
+				</header>
+
+				<div class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		           <li class="nav active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+		           <li class="nav"><a href="about.html"> About </a></li>
+		           <li class="nav cnt-padding"><a href="album.html"> Gallery </a></li>
+		         </ul>
+		    </div> 
+			</nav>
+
+		</header>
+		<!--
+			# Grid System 
+			## Grid system has 12 blocks and that can be represented using:
+			.col-ls-xx: >= 1200px
+			.col-md-xx: >= 992px
+			.col-sm-xx: >= 768px
+			.col-xs-xx: < 768px
+
+			.hidden-xs: hidden in small sizes 
+
+			# Typography
+			.text-muted
+			.text-warning 
+			.text-success
+			.text-primary
+		-->
+
+		<main >
+		
+			<div id="page" class="container">
+				<div class="row">
+			        <div class="">
+			          <div class="carousel slide" id="theCarousel" data-interval="2000" data-ride="carousel">
+
+			            <ol class="carousel-indicators">
+			              <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+			              <li data-target="#theCarousel" data-slide-to="1"></li>
+			              <li data-target="#theCarousel" data-slide-to="2"></li>
+			             
+			            </ol>
+
+			            <div class="carousel-inner" role="listbox">
+
+			              <div class="item active">
+			                <img src="images/carousel/carousel-3.jpg" alt="1" class="img-responsive" />
+			                <div class="carousel-caption">
+			                  <h4>Bedroom</h4>
+			                  <p>Main room of a house.</p>
+			                </div>
+			              </div>
+			              <div class="item">
+			                <img src="images/carousel/carousel-4.jpg" alt="2" class="img-responsive" />
+			                <div class="carousel-caption">
+			                  <h4>Living Room</h4>
+			                  <p>In Western architecture, a living room, also called a lounge room</p>
+			                </div>
+			              </div>
+			              <div class="item">
+			                <img src="images/carousel/carousel-2.jpg" alt="3" class="img-responsive" />
+			                <div class="carousel-caption">
+			                  <h4>Kitchen</h4>
+			                  <p>A kitchen is a room or part of a room used for cooking and food preparation in a dwelling or in a commercial establishment</p>
+			                </div>
+			              </div>
+			            
+			            </div>
+
+			            <a href="#theCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
+			            <a href="#theCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
+			          </div>
+			        </div>
+			    </div>
+				<section class="page-header">
+			          <header>
+			            <h1>Callanish House</h1>
+			          </header>
+			    </section>
+
+					
+
+			    <hr/>
+
+					<section class="col-md-12">
+						<article>
+							<div>
+								<p class="well text-primary">
+									In direct sight of the famous Callanish Stones, the croft-house at 25 Callanish has been in the family since XYZ. Accommodating up to 6 in a ground floor double bedroom and two loft rooms, the recently refurbished (Dec '17) cottage is centrally heated throughout, has a modern kitchen with all amenities while retaining the original living room open fire.
+								</p>
+
+								<!--
+									.pull-left : 	makes the image float left 
+									.img-thumbnail : 	it adds a little buffer and a little border 
+													around the image
+								-->
+								<img src="images/house-1.jpg" alt="House" class="pull-right img-thumbnail">
+							</div>	
+						
+							<div>
+								
+									
+							</div>
+						</article>
+
+						<article >
+							<header>
+								<h3>Location</h3>
+							</header>
+							<div>
+								<p class="text-primary"> 
+									The house is only ten minutes walk from the famous and historic Callanish Stones and Visitor Centre.  Its situation on the island is fairly central and hence not too far from the shops and restaurants of Stornoway and equally a short drive to the beaches of the North-West coast.
+								</p>
+
+								<p class="text-primary">
+									Travel to 4 Callanish  is very straightforward either by air to Stornoway from Glasgow, Edinburgh or Inverness or by sea from Ullapool.  It is then 30 minutes to Callanish by car or bus.  A further ferry from Skye serves Tarbert on the Isle of Harris, just over an hour’s drive from Callanish
+								</p>
+
+								<h3>History</h3>
+
+								<p class="text-primary">
+									The present house was built around 1905 in the traditional style on top of an earlier black house.  It became derelict in the 1980s and was bought by us in 2005 as a small-scale ‘Grand Designs’ adventure.  Since then it has been meticulously restored to a high standard, preserving the traditional exterior features and appearance, but with a modernised interior, being completed in 2011. 
+								</p>
+
+								<p class="text-primary">
+									This is our own holiday house, which we use ourselves and it is furnished with some of our family furniture.  We are very pleased to share it with you!
+								</p>
+
+								<!--
+									.pull-left : 	makes the image float left 
+									.img-thumbnail : 	it adds a little buffer and a little border 
+													around the image
+								-->
+							</div>	
+						</article>
+						
+					</section>
+
+					<!--
+					<section class="col-md-12">
+						<article>
+							<header>
+								<h1>Side Sample</h1>
+							</header>
+							<div>
+								<p>
+									Download Bootstrap to get the compiled CSS and JavaScript, source code, or include it with your favorite package managers like npm, Bower, RubyGems, and more.
+
+									Download ready-to-use compiled code for Bootstrap v4.0.0-beta to easily drop into your project, which includes:
+								</p>
+
+								<img src="images/lebowski-2.jpg" alt="Bowling" class="img-thumbnail">
+							</div>	
+						</article>
+						
+						<article>
+							<div>
+								<ul>
+									<li>Compiled and minified CSS bundles (default, grid-only, and Reboot-only)</li>
+									<li> Compiled and minified JavaScript plugins</li>
+								</ul>
+								<p class="text-muted"> 
+									This doesn’t include documentation, source files, or any optional JavaScript dependencies (jQuery and Popper.js).
+								</p>	
+							</div>
+						</article>
+					</section>
+				-->
+
+			</div>
+	      
+
+		</main>
+		<hr/>
+		<footer class="container text-muted">
+		    <section class="col-md-6 text-center">
+		      <header class="article-header"> <h4> Contact Information</h4> </header>
+		      <div class="footer-div">
+		        <ul class="list-unstyled">
+		          <li ><a href="#">07714706088</a></li>
+		          <li ><a href="#">12 Cearns Easaidh</a></li>
+		          <li ><a href="#">sampleemail@hotmail.com</a></li>
+		        </ul>
+		      </div>
+		      
+		    </section> 
+		    <section class="col-md-6 text-center">
+		      <header> <h4> Social Media </h4> </header>
+		      <div class="contact-logo">
+		        <ul class="list-unstyled">
+		          <li class=""><a href="#"><img src="images/contact-logo/facebook.png" class="img-responsive logo-img" id="logo-img"></a></li>
+		        </ul>
+		      </div>
+		    </section>
+
+		    <section class="col-md-12">
+		      <header class="text-center ">  &copy; Callanish B&B</header>
+		    </section>
+		</footer>
+	</div>	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/site.js"></script>
+  #this sections is for testing only. kdjfg
+</body>
+</html>
